@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import co.test.ada.entity.Marker;
 
-@Repository
 public interface MarkerDao extends CrudRepository<Marker, Long> {
 	
 	Marker findByNombre(String nombre);
